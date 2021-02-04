@@ -23,15 +23,16 @@ code {
 
 .input {
   text-align:center;
-  /* border: 1px solid black; */
+  border: 1px solid black;
   height: 300px;
 }
 .input-group{
   width: 40% !important;
   margin-top: 50px;
-  margin-left: 200px;
+  margin-left: 100px;
   text-align: center;
   display: inline;
+
 
 }
 /* .btn{
