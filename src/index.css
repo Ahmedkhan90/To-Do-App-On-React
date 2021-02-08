@@ -29,7 +29,7 @@ code {
 .input-group{
   width: 40% !important;
   margin-top: 50px;
-  /* margin-left: 100px; */
+  margin-left: -200px;
   text-align: center;
   display: inline;
 
