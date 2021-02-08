@@ -31,11 +31,15 @@ function Todo() {
     let todo = ([...data])
     todo.splice(i)
     setData(todo)
+   
 
   };
 
 
-
+  // var todo = document.getElementById("post").value
+  // if(todo === ""){
+  //   alert("some text ")
+  // }
 
   const delete1 =  (v)  =>{
 
@@ -45,7 +49,7 @@ function Todo() {
     
 
   };
-
+ 
   // const edit = (v) => {
         
     // let edit =  [...data]
@@ -59,13 +63,15 @@ function Todo() {
        <h1>To Do Application</h1>
            <h3>Created By</h3>
         <h1>Mohammad Ahmed Khan</h1>
+  <form onSubmit={post}>
 <div className="todo">
         <input   type="text"  placeholder="Enter Todo List" required="required" id="post" className="input-group mb-2" />
        <div className="Buttons">
-       <button className="btn btn-outline-success"  onClick={post}>Add</button>
+       <button className="btn btn-outline-success" >Add</button>
        <button className="btn btn-outline-danger" onClick={remove}>Delete All</button>
 </div>
 </div>
+       </form>
     
 
 
