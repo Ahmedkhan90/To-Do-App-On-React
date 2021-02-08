@@ -46,26 +46,26 @@ function Todo() {
 
   };
 
-  const edit = (v) => {
+  // const edit = (v) => {
         
     // let edit =  [...data]
     // edit.push(v,1)
     // setData(edit)
     
-  }
+  // }
 
 
   return <div className="input">
-    <h1>To Do Application</h1>
-    <h3>Created By</h3>
-    <h1>Mohammad Ahmed Khan</h1>
-
-    <input   type="text"  placeholder="Enter Todo List" id="post" className="input-group mb-2" />
-    <div className="Buttons">
-    <button className="btn btn-outline-success"  onClick={post}>Add</button>
-    <button className="btn btn-outline-danger" onClick={remove}>Delete All</button>
+       <h1>To Do Application</h1>
+           <h3>Created By</h3>
+        <h1>Mohammad Ahmed Khan</h1>
+<div className="todo">
+        <input   type="text"  placeholder="Enter Todo List" required="required" id="post" className="input-group mb-2" />
+       <div className="Buttons">
+       <button className="btn btn-outline-success"  onClick={post}>Add</button>
+       <button className="btn btn-outline-danger" onClick={remove}>Delete All</button>
 </div>
-
+</div>
     
 
 
@@ -75,7 +75,7 @@ function Todo() {
         return (
           <div>
             {v} <button className="btn btn-outline-dark" onClick={delete1}>Delete1</button>
-            <button className="btn btn-outline-dark" onClick={edit}>edit </button>
+            {/* <button className="btn btn-outline-dark" onClick={edit}>edit </button> */}
             </div>
 
         )
